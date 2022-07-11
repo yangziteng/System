@@ -1,0 +1,83 @@
+
+.bgc{
+    background-color: rgba(245,245,250);
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    background-image: url("https://jwxt.gdupt.edu.cn/styles/images/maomingshiyou.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.model{
+    width: 500px;
+    backdrop-filter: blur(6px);
+    height: 500px;
+    background: rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    margin:0 auto; 
+    position: relative;
+}
+.model-head{
+    text-align: center;
+    margin-top:40px;
+    font-size: 24px;
+    font-weight: 800;
+}
+.model-body{
+  
+    margin-top:100px;
+ 
+}
+.username{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  
+} 
+.pwd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top:20px
+}
+.model-body-input{
+    width: 300px;
+    height: 40px;
+    outline: none;  
+    border-radius: 20px;
+    padding-left:40px ;
+    box-sizing: border-box;
+    border:1px solid #e7e7e7
+}
+
+.img{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    right: 290px;
+    /* right:290px */
+}
+.model-end{
+    width: 300px;
+    background-color: rgba(50,145,248);
+    /* letter-spacing: 40px; */
+    border-radius: 20px;
+    padding: 10px 0px;
+    text-align: center;
+    color:white;
+    margin:0 auto;
+    position: relative;
+    right:10px;
+    margin-top:50px;
+    cursor: pointer;
+}
+.end{
+    position: absolute;
+    bottom: 20px;
+    left:50%;
+    margin-left:-44px
+}

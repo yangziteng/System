@@ -1,0 +1,53 @@
+
+.bgc{
+    background-color: rgba(245,245,250);
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+}
+.model{
+    width: 600px;
+    height: 600px;
+    background-color: white;
+    border-radius: 20px;
+    margin:0 auto; 
+}
+.model-head{
+    text-align: center;
+    margin-top:40px;
+    font-size: 20px;
+    font-weight: 800;
+}
+.model-body{
+  
+    margin-top:100px;
+    position:relative
+ 
+}
+.username .pwd{
+    display: flex;
+
+    position:relative;
+    align-items: center;
+    justify-content: center;
+}
+.model-body-input{
+    width: 300px;
+    height: 40px;
+  
+    border-radius: 20px;
+    padding-left:40px ;
+    box-sizing: border-box;
+    position:relative
+}
+input{
+    display: flex;
+    justify-content: center;
+}
+.img{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    /* right:290px */
+}

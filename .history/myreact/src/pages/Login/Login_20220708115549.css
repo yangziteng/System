@@ -1,0 +1,21 @@
+.model {
+    display: flex;
+    background-color: red;
+    color:green;
+    height: 300px;
+}
+.model2 {
+    color:blue;
+    height: 400px;
+}
+.bgc{
+    background-color: rgba(245,245,250);
+    width: 100vw;
+    height: 100vh;
+}
+.model{
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    border-radius: 20px;
+}
